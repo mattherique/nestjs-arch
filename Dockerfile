@@ -16,5 +16,3 @@ RUN pnpm install
 COPY . /app
 
 EXPOSE 3003
-
-ENTRYPOINT [ "pnpm", "start dev" ]
